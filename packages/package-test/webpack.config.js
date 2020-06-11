@@ -24,7 +24,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist/"),
     publicPath: "/dist/",
-    filename: "bundle.js"
+    filename: "index.js"
   },
   devtool: "inline-source-map",
   devServer: {
