@@ -6,8 +6,8 @@ const StyledInput = styled.input`
     border: 1px solid #333;
 `
 
-const Input = ({ placeholder }) => (
-    <StyledInput type="text" name="test" placeholder={placeholder}/>
+const Input = () => (
+    <StyledInput type="text" name="test" />
 )
 
 
